@@ -1,6 +1,8 @@
 
 -- https://www.seas.upenn.edu/~cis1940/spring13/hw/01-intro.pdf
 
+import System.IO
+
 -- exercise 1
 toDigits :: Integer -> [Integer]
 toDigits n
@@ -38,3 +40,15 @@ validate n
 
 
 -- exercise 5
+type Peg = String
+type Move = (Peg, Peg)
+hanoi :: Integer -> Peg -> Peg -> Peg -> [Move]
+hanoi 0 _ _ _ = []
+hanoi 1 a b c = [("a", "b")]
+hanoi n a b c = 
+
+main = do
+
+    putStrLn "*** encrypted ***"
+    putStrLn cypher
+

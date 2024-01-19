@@ -6,3 +6,5 @@ This is an attempt at exercises from the Introduction to Haskell course held at 
 https://www.seas.upenn.edu/~cis1940/spring13/lectures.html
 
 https://www.seas.upenn.edu/~cis1940/fall16/
+
+https://www.seas.upenn.edu/~cis5520/19fa/homework.html
